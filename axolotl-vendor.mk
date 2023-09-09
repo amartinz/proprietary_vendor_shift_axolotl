@@ -949,7 +949,6 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
-    android.hardware.neuralnetworks@1.3-service-qti \
     vendor.qti.gnss@3.0-service
 PRODUCT_COPY_FILES += \
     vendor/shift/axolotl/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
