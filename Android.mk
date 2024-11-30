@@ -7,7 +7,7 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),axolotl)
 
 $(call add-radio-file-sha1-checked,radio/ImageFv.img,743fca7232dee508c650af4089bdcacdc0cbcabe)
-$(call add-radio-file-sha1-checked,radio/abl.img,87261da98a6cf750e8df99a5727daffd4584f9fd)
+$(call add-radio-file-sha1-checked,radio/abl.img,70d8623b641911cc779f4dd1b08fa90a390b516f)
 $(call add-radio-file-sha1-checked,radio/aop.img,7de175c9260a0f7914a4c832eb8998aa53f70e9f)
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,36cdfa2a90989c1eb0dd15743b28a081d74553fb)
 $(call add-radio-file-sha1-checked,radio/cmnlib.img,b070a992cfd2932203ff005a433eabc7efbf35db)
