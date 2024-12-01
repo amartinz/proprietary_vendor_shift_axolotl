@@ -571,7 +571,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
     vendor.qti.hardware.radio.ims@1.1 \
     vendor.qti.hardware.radio.ims@1.2 \
@@ -665,7 +664,6 @@ PRODUCT_PACKAGES += \
     dpmapi \
     qcrilhook \
     vendor.qti.gnss@3.0-service.xml \
-    ATFWD-daemon \
     adpl \
     adsprpcd \
     cdsprpcd \
