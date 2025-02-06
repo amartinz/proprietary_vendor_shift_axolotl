@@ -15567,6 +15567,30 @@ android_app_import {
 }
 
 android_app_import {
+    name: "EuiccOverlay",
+    owner: "shift",
+    apk: "proprietary/product/app/EuiccOverlay/EuiccOverlay.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    product_specific: true,
+}
+
+android_app_import {
+    name: "EuiccGoogle",
+    owner: "shift",
+    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    preprocessed: true,
+    presigned: true,
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+    product_specific: true,
+}
+
+android_app_import {
     name: "PowerOffAlarm",
     owner: "shift",
     apk: "proprietary/system_ext/app/PowerOffAlarm/PowerOffAlarm.apk",
